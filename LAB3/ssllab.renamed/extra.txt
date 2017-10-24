@@ -1,0 +1,4 @@
+ CA SSL
+Index file location: home/stud/www/cassl
+Conf file name: cassl.conf
+Type: Certificate authority 
