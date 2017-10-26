@@ -30,8 +30,12 @@ This is simple PHP_form with ->
 >Login: root/root
 Full set-up can be found here!
 > https://github.com/sarziv/php_environment
+### Table ordering ASC/DESC
+* Name
+* Email
+* Time
+* IP
+* Message
 ### More coming soon!
-* Order by unique
-* Order by name.
 * Limited-message server-sided.
 * coming soon.
