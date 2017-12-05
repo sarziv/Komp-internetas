@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap bandymai</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Parduodami automobiliai</h1>
+  <p>Pakeiskite peržiūros lango dydį , kad gautumėt efektą!<p>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" id="div1">
+      <div class="w3-container w3-teal">
+  <h3>Mano automolis</h3>
+    </div>
+      <p><img src="img_car.jpg" alt="Car" style="width:100%"></p>
+      <p>Automobilis yra su ratukais, savarankiškai varomas transporto priemonė naudojama transportavimui.</p>
+    
+      <div class="w3-container w3-red">
+  <p>Automobilio savininkas- Šarūnas Živila IFI-3 </p>
+</div>
+    </div>
+    <div class="col-sm-4" >
+      <div id="p1" class="w3-container w3-teal">
+  <h3>Mano automolis</h3>
+    </div>
+    <div id="div2img">
+      <p><img src="img_car.jpg" alt="Car" style="width:100%"></p>
+    </div>
+      <p>Automobilis yra su ratukais, savarankiškai varomas transporto priemonė naudojama transportavimui.</p>
+  <div class="w3-container w3-red">
+  <p>Automobilio savininkas- Šarūnas Živila IFI-3 </p>
+</div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="w3-container w3-teal">
+  <h3>Mano automolis</h3>
+    </div>
+    <div id="onclick">
+      <p><img src="img_car.jpg" alt="Car" style="width:100%"></p>
+    </div>
+      <p>Automobilis yra su ratukais, savarankiškai varomas transporto priemonė naudojama transportavimui.</p>
+    <div class="w3-container w3-red">
+      <p>Automobilio savininkas- Šarūnas Živila IFI-3 </p>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+
+$("#div1").hover(function(){
+    $(this).css("background-color", "w3-red");
+    }, function(){
+    $(this).css("background-color", "white");
+});
+
+$("#div2img").hover(function(){
+    $(this).css("background-color", "yellow");
+    $(this).css("opacity","0.5");
+    }, function(){
+    $(this).css("background-color", "white");
+    $(this).css("opacity","1");
+});
+
+$("#onclick").click(function(){
+    $(this).css("background-color", "yellow");
+    $(this).css("opacity","0.2");
+    }, function(){
+    $(this).css("background-color", "white");
+    $(this).css("opacity","0.5");
+});
+
+
+</script>
+
+</body>
+</html>
